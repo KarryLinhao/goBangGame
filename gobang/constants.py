@@ -1,0 +1,32 @@
+from pathlib import Path
+
+
+WINDOW_WIDTH = 1100
+WINDOW_HEIGHT = 700
+WINDOW_SIZE = (WINDOW_WIDTH, WINDOW_HEIGHT)
+
+BOARD_SIZE = 15
+CELL_SIZE = 40
+GRID_START = 80
+PIECE_SIZE = 40
+PIECE_OFFSET = GRID_START - PIECE_SIZE // 2
+BOARD_BG_RECT = (50, 50, 630, 630)
+BOARD_BG_COLOR = (238, 154, 73)
+LINE_COLOR = (0, 0, 0)
+STAR_POINTS = ((200, 200), (520, 200), (200, 520), (520, 520), (360, 360))
+
+EMPTY = 0
+BLACK = 1
+WHITE = 2
+
+HOME = "home"
+MODE_SELECT = "mode_select"
+PLAYER_SETUP = "player_setup"
+GAME = "game"
+RULES = "rules"
+
+PVP = "pvp"
+PVAI = "pvai"
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+ASSETS_DIR = PROJECT_ROOT / "assets"
