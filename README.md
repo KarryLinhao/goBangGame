@@ -52,4 +52,3 @@ python3 main.py
 - Player vs AI mode
 - Undo support
 - Draw detection
-- Sound toggle with graceful fallback if audio is unavailable
